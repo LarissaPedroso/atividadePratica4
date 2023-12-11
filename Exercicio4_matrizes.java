@@ -1,17 +1,13 @@
 package atividadePratica4_ArrayMatriz;
 
-import java.util.Scanner;
-
 public class Exercicio4_matrizes {
 
 	public static void main(String[] args) {
-		double nota;
 		double media;
 		double soma = 0;
 		double todasMedias[] = new double[10];
 		
 		double matriz[][] = {	{4.0, 5.0, 7.0, 3.0}, 
-								{2.5, 6.5, 4.7, 8.0}, 
 								{10.0, 8.5, 9.5, 8.0},
 								{9.0, 6.5, 7.6, 8.2},
 								{5.0, 5.0, 5.0, 6.3},
