@@ -44,7 +44,6 @@ public class Exercicio2_vetores {
 			media = (double)soma/vetores.length;
 		}
 		System.out.println("\nSoma: " + soma);
-		System.out.printf("Média: %.2f",  media);
-		
+		System.out.printf("Média: %.2f",  media);	
 	}
 }
