@@ -21,21 +21,14 @@ public class Exercicio4_matrizes {
 								{5.6, 5.8, 6.5, 7.0},
 								{7.5, 8.5, 9.5, 10.0}};
 								
-		
 		for(int i = 0; i < 10; i++) {
 			for(int j = 0; j < 4; j++) {
 					soma+=matriz[i][j];
 			}
-			//System.out.println("Soma " + soma);
 			media = soma / 4;
 			todasMedias[i] = media;
 			System.out.printf("Média de todos: %.1f\n", todasMedias[i]);
 			soma = 0;
 		}
-		
-		
-		
-
 	}
-
 }
