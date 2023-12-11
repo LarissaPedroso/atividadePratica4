@@ -27,10 +27,6 @@ public class Exercicio1_vetores {
 		}else {
 			System.out.println("O número " + numero + " está localizado na posição: " + posicao);
 		}
-		
-		
-		
-
 	}
 
 }
