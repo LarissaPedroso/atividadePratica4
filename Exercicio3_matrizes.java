@@ -22,7 +22,6 @@ public class Exercicio3_matrizes {
 		}
 
 		leia.close();
-		
 
 		System.out.println("Elementos da Diagonal Principal: ");
 		for(int i = 0; i < 3; i++){
